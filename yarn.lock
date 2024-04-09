@@ -50,7 +50,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.23.0, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.9, @babel/core@npm:^7.24.1":
+"@babel/core@npm:^7.23.0, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.7, @babel/core@npm:^7.23.9":
   version: 7.24.4
   resolution: "@babel/core@npm:7.24.4"
   dependencies:
@@ -1492,7 +1492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.20.7, @babel/types@npm:^7.22.15, @babel/types@npm:^7.22.19, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.4, @babel/types@npm:^7.23.9, @babel/types@npm:^7.24.0, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.20.7, @babel/types@npm:^7.22.15, @babel/types@npm:^7.22.19, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.4, @babel/types@npm:^7.23.6, @babel/types@npm:^7.23.9, @babel/types@npm:^7.24.0, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
   version: 7.24.0
   resolution: "@babel/types@npm:7.24.0"
   dependencies:
@@ -2299,7 +2299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-extractor@npm:^7.38.0, @microsoft/api-extractor@npm:^7.43.0":
+"@microsoft/api-extractor@npm:^7.38.0, @microsoft/api-extractor@npm:^7.39.1":
   version: 7.43.0
   resolution: "@microsoft/api-extractor@npm:7.43.0"
   dependencies:
@@ -2799,13 +2799,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/browserslist-config@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@sanity/browserslist-config@npm:1.0.3"
-  checksum: 10c0/506a473eeb6d1732e5c5b2b0225e8851beac9866a5c90e43a47c5ebe782ec8f7cd29b6392fab3efdb0bd3a55fb6b23e22e755e8586136484d6a6147baa956467
-  languageName: node
-  linkType: hard
-
 "@sanity/cli@npm:3.37.0":
   version: 3.37.0
   resolution: "@sanity/cli@npm:3.37.0"
@@ -3107,13 +3100,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/pkg-utils@npm:^4.3.8":
-  version: 4.4.4
-  resolution: "@sanity/pkg-utils@npm:4.4.4"
+"@sanity/pkg-utils@npm:^3.3.8":
+  version: 3.3.8
+  resolution: "@sanity/pkg-utils@npm:3.3.8"
   dependencies:
-    "@babel/core": "npm:^7.24.1"
-    "@babel/types": "npm:^7.24.0"
-    "@microsoft/api-extractor": "npm:^7.43.0"
+    "@babel/core": "npm:^7.23.7"
+    "@babel/preset-env": "npm:^7.23.8"
+    "@babel/types": "npm:^7.23.6"
+    "@microsoft/api-extractor": "npm:^7.39.1"
     "@microsoft/tsdoc-config": "npm:^0.16.2"
     "@rollup/plugin-alias": "npm:^5.1.0"
     "@rollup/plugin-babel": "npm:^6.0.4"
@@ -3122,29 +3116,28 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
     "@rollup/plugin-replace": "npm:^5.0.5"
     "@rollup/plugin-terser": "npm:^0.4.4"
-    "@sanity/browserslist-config": "npm:^1.0.3"
-    browserslist: "npm:^4.23.0"
+    browserslist: "npm:^4.22.2"
     cac: "npm:^6.7.14"
     chalk: "npm:^4.1.2"
-    chokidar: "npm:^3.6.0"
-    esbuild: "npm:^0.20.2"
+    chokidar: "npm:^3.5.3"
+    esbuild: "npm:^0.19.11"
     esbuild-register: "npm:^3.5.0"
     find-config: "npm:^1.0.0"
     get-latest-version: "npm:^5.1.0"
     git-url-parse: "npm:^14.0.0"
     globby: "npm:^11.1.0"
-    jsonc-parser: "npm:^3.2.1"
+    jsonc-parser: "npm:^3.2.0"
     mkdirp: "npm:^3.0.1"
     outdent: "npm:^0.8.0"
     parse-git-config: "npm:^3.0.0"
     pkg-up: "npm:^3.1.0"
-    prettier: "npm:^3.2.5"
-    prettier-plugin-packagejson: "npm:^2.4.12"
+    prettier: "npm:^3.1.1"
+    prettier-plugin-packagejson: "npm:^2.4.9"
     pretty-bytes: "npm:^5.6.0"
     prompts: "npm:^2.4.2"
     rimraf: "npm:^4.4.1"
-    rollup: "npm:^4.13.0"
-    rollup-plugin-esbuild: "npm:^6.1.1"
+    rollup: "npm:^4.9.5"
+    rollup-plugin-esbuild: "npm:^6.1.0"
     rxjs: "npm:^7.8.1"
     treeify: "npm:^1.1.0"
     uuid: "npm:^9.0.1"
@@ -3154,7 +3147,7 @@ __metadata:
   bin:
     pkg: bin/pkg-utils.cjs
     pkg-utils: bin/pkg-utils.cjs
-  checksum: 10c0/defb62a72c218234c8450427bc4cbeb93aa2c7f7e2ba9c4a742f4fc2259d818a19248a57841a58a01f99f882d3b3119e0e84a6b35c4aa578bf269e2fc71afbdf
+  checksum: 10c0/cd86f8cc76ae085532e806eadebadf5d9f8f217fd1ab402d22df13b41af18f4a6390d4a54109f4da50702192213fcfae0dca9da8cd370620c6b8fdca1be6b128
   languageName: node
   linkType: hard
 
@@ -4477,7 +4470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.2, chokidar@npm:^3.5.3, chokidar@npm:^3.6.0":
+"chokidar@npm:^3.5.2, chokidar@npm:^3.5.3":
   version: 3.6.0
   resolution: "chokidar@npm:3.6.0"
   dependencies:
@@ -5607,7 +5600,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.19.4":
+"esbuild@npm:^0.19.11, esbuild@npm:^0.19.4":
   version: 0.19.12
   resolution: "esbuild@npm:0.19.12"
   dependencies:
@@ -5687,7 +5680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.20.0, esbuild@npm:^0.20.2":
+"esbuild@npm:^0.20.0":
   version: 0.20.2
   resolution: "esbuild@npm:0.20.2"
   dependencies:
@@ -8065,7 +8058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.2.0, jsonc-parser@npm:^3.2.1":
+"jsonc-parser@npm:^3.2.0":
   version: 3.2.1
   resolution: "jsonc-parser@npm:3.2.1"
   checksum: 10c0/ada66dec143d7f9cb0e2d0d29c69e9ce40d20f3a4cb96b0c6efb745025ac7f9ba647d7ac0990d0adfc37a2d2ae084a12009a9c833dbdbeadf648879a99b9df89
@@ -9647,7 +9640,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:^2.4.12, prettier-plugin-packagejson@npm:^2.4.14, prettier-plugin-packagejson@npm:^2.4.6":
+"prettier-plugin-packagejson@npm:^2.4.14, prettier-plugin-packagejson@npm:^2.4.6, prettier-plugin-packagejson@npm:^2.4.9":
   version: 2.4.14
   resolution: "prettier-plugin-packagejson@npm:2.4.14"
   dependencies:
@@ -9662,7 +9655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.3, prettier@npm:^3.2.5":
+"prettier@npm:^3.0.3, prettier@npm:^3.1.1, prettier@npm:^3.2.5":
   version: 3.2.5
   resolution: "prettier@npm:3.2.5"
   bin:
@@ -10425,7 +10418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-esbuild@npm:^6.1.0, rollup-plugin-esbuild@npm:^6.1.1":
+"rollup-plugin-esbuild@npm:^6.1.0":
   version: 6.1.1
   resolution: "rollup-plugin-esbuild@npm:6.1.1"
   dependencies:
@@ -10465,7 +10458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^4.13.0":
+"rollup@npm:^4.9.5":
   version: 4.14.1
   resolution: "rollup@npm:4.14.1"
   dependencies:
@@ -10636,7 +10629,7 @@ __metadata:
   dependencies:
     "@sanity/dashboard": "npm:^3.1.6"
     "@sanity/incompatible-plugin": "npm:^1.0.4"
-    "@sanity/pkg-utils": "npm:^4.3.8"
+    "@sanity/pkg-utils": "npm:^3.3.8"
     "@sanity/plugin-kit": "npm:^3.1.10"
     "@types/react": "npm:^18.2.75"
     "@typescript-eslint/eslint-plugin": "npm:^7.6.0"
