@@ -25,7 +25,7 @@ Add it as a plugin inside the dashboardTool in `sanity.config.ts` (or .js):
 ```ts
 import {defineConfig} from 'sanity'
 import {dashboardTool} from '@sanity/dashboard'
-import {umamiWidget} from 'sanity-plugin-umami-analytics'
+import {umamiWidget} from 'sanity-plugin-umami-analytics-widget'
 
 export default defineConfig({
   //...
