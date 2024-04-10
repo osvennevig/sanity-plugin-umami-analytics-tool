@@ -1,9 +1,9 @@
-# sanity-plugin-umami-analytics-widget
+# sanity-plugin-umami-analytics-tool
 
 > This is a **Sanity Studio v3** plugin.
 > Inspired by https://www.sanity.io/plugins/plausible-analytics-widget by Stijn.
 
-![image](https://github.com/osvennevig/sanity-plugin-umami-analytics-widget/blob/1d5ca8de90fabdb33954b8455241c35d7330f22f/image.png)
+![image](https://github.com/osvennevig/sanity-plugin-umami-analytics-tool/blob/1d5ca8de90fabdb33954b8455241c35d7330f22f/image.png)
 
 ## Umami configuration
 
@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-npm install sanity-plugin-umami-analytics-widget
+npm install sanity-plugin-umami-analytics-tool
 ```
 
 ## Usage
@@ -24,20 +24,15 @@ Add it as a plugin inside the dashboardTool in `sanity.config.ts` (or .js):
 
 ```ts
 import {defineConfig} from 'sanity'
-import {dashboardTool} from '@sanity/dashboard'
-import {umamiWidget} from 'sanity-plugin-umami-analytics-widget'
+import {umamiTool} from 'sanity-plugin-umami-analytics-tool'
 
 export default defineConfig({
   //...
 
   plugins: [
-    dashboardTool({
-      widgets: [
-        umamiWidget({
-          url: '<your-share-url-from-umami>',
-          //example: https://eu.umami.is/share/XXXX/XXXX
-        }),
-      ],
+    umamiTool({
+      url: '<your-share-url-from-umami>',
+      //example: https://eu.umami.is/share/XXXX/XXXX
     }),
   ],
 })
@@ -47,7 +42,6 @@ export default defineConfig({
 
 - `url` - Required - the share url from Umami
 - `title` - Optional - defaults to 'Umami Analytics'
-- `height` - Optional - defaults to 'calc(100vh - 143px)'
 
 ## License
 
