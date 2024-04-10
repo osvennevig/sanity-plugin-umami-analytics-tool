@@ -3,7 +3,7 @@
 > This is a **Sanity Studio v3** plugin.
 > Inspired by https://www.sanity.io/plugins/plausible-analytics-widget by Stijn.
 
-![image](https://github.com/osvennevig/sanity-plugin-umami-analytics-tool/blob/1d5ca8de90fabdb33954b8455241c35d7330f22f/image.png)
+![image](https://github.com/osvennevig/sanity-plugin-umami-analytics-tool/blob/d3cb2cd50c18558ab1213e016f2b05ebbdce37da/image.png)
 
 ## Umami configuration
 
