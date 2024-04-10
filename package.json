@@ -1,24 +1,25 @@
 {
   "name": "sanity-plugin-umami-analytics-widget",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Access your Umami analytics in Sanity Studio",
   "keywords": [
     "sanity",
     "sanity-plugin"
   ],
+  "type":"module",
   "license": "MIT",
   "author": "Ole Svennevig <ole@svennevigflaaten.no>",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "source": "./src/index.ts",
-      "require": "./dist/index.js",
       "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs",
       "default": "./dist/index.esm.js"
     },
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -70,10 +71,5 @@
   },
   "engines": {
     "node": ">=14"
-  },
-  "sanityPlugin": {
-    "verifyPackage": {
-       "eslintImports": false
-    }
- }
+  }
 }
