@@ -71,5 +71,10 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "sanityPlugin": {
+    "verifyPackage": {
+       "eslintImports": false
+    }
+ }
 }
