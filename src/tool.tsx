@@ -3,11 +3,9 @@ import {ComponentConfig} from './types'
 export default function Tool(props: ComponentConfig) {
   const config = {
     url: props.tool.url || '',
-    title: props.tool.title || 'Umami Analytics',
   }
   return (
     <>
-      {/* {config.title} */}
       {/* {JSON.stringify(config)} */}
       {config.url ? (
         <>
@@ -24,7 +22,7 @@ export default function Tool(props: ComponentConfig) {
           />
         </>
       ) : (
-        <div style={{margin: '16px'}}>'url' is missing from your plugin configuration</div>
+        <div style={{margin: '16px'}}>url is missing from your plugin configuration</div>
       )}
     </>
   )

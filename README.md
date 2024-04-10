@@ -41,7 +41,7 @@ export default defineConfig({
 ### Options
 
 - `url` - Required - the share url from Umami
-- `title` - Optional - defaults to 'Umami Analytics'
+- `title` - Optional - defaults to 'Umami'
 
 ## License
 

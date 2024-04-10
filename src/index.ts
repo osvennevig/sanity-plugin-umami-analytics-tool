@@ -1,6 +1,7 @@
+import {BarChartIcon} from '@sanity/icons'
 import {lazy} from 'react'
 import {definePlugin} from 'sanity'
-import {BarChartIcon} from '@sanity/icons'
+
 import {UmamiToolConfig} from './types'
 
 export const umamiTool = definePlugin<UmamiToolConfig | void>((options) => {

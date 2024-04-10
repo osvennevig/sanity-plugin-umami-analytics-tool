@@ -6,5 +6,5 @@ export interface UmamiToolConfig {
 }
 
 export interface ComponentConfig extends UmamiToolConfig {
-  tool: Tool & {url: string; title?: string}
+  tool: Tool & {url: string}
 }
