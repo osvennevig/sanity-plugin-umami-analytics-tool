@@ -6,12 +6,13 @@
     "sanity",
     "sanity-plugin"
   ],
+  "sideEffects": false,
+  "browserslist": "extends @sanity/browserslist-config",
   "type":"module",
   "license": "MIT",
   "author": "Ole Svennevig <ole@svennevigflaaten.no>",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "source": "./src/index.ts",
       "import": "./dist/index.esm.js",
       "require": "./dist/index.cjs",
@@ -22,7 +23,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
   "source": "./src/index.ts",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.cts",
   "files": [
     "dist",
     "sanity.json",
