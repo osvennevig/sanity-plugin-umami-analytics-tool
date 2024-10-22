@@ -3,7 +3,8 @@
   "include": ["./src", "./package.config.ts"],
   "compilerOptions": {
     "rootDir": ".",
-    "jsx": "react-jsx",
+    "jsx": "preserve",
+    "module": "preserve",
     "noEmit": true,
     "declaration": true
   }

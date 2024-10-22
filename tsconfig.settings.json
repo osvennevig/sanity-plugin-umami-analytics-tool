@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@types": ["./src/types"]
+    },
     "moduleResolution": "node",
     "target": "esnext",
     "module": "esnext",
