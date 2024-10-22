@@ -1,6 +1,8 @@
+import React from 'react'
+
 import {ComponentConfig} from './types'
 
-export default function Tool(props: ComponentConfig) {
+export default function Tool(props: ComponentConfig): React.JSX.Element {
   const config = {
     url: props.tool.url || '',
   }
