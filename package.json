@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-umami-analytics-tool",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Access your Umami analytics in Sanity Studio",
   "keywords": [
     "sanity",
@@ -39,31 +39,31 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
-    "@sanity/incompatible-plugin": "^1.0.4"
+    "@sanity/incompatible-plugin": "^1.0.5"
   },
   "devDependencies": {
-    "@sanity/pkg-utils": "^6.11.4",
-    "@sanity/icons": "^3.4.0",
-    "@sanity/plugin-kit": "^4.0.18",
-    "@types/react": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^7.6.0",
-    "@typescript-eslint/parser": "^7.6.0",
-    "eslint": "^9.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-sanity": "^7.1.3",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^5.0.0",
+    "@sanity/icons": "^3.7.4",
+    "@sanity/pkg-utils": "^6.13.4",
+    "@sanity/plugin-kit": "^4.0.19",
+    "@types/react": "^18.3.24",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-config-sanity": "^7.1.4",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.2.5",
-    "prettier-plugin-packagejson": "^2.4.14",
+    "prettier": "^3.6.2",
+    "prettier-plugin-packagejson": "^2.5.19",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-is": "^18.3.1",
-    "rimraf": "^5.0.5",
-    "sanity": "^3.61.0",
-    "styled-components": "^6.1.13",
-    "typescript": "^5.6.3"
+    "rimraf": "^5.0.10",
+    "sanity": "^3.99.0",
+    "styled-components": "^6.1.19",
+    "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "react": "^18",
