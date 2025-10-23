@@ -42,6 +42,7 @@ export default defineConfig({
 
 - `url` - Required - the share url from Umami
 - `title` - Optional - defaults to 'Umami'
+- `name` - Optional - Changes the tool's URL, defaults to 'umami'
 
 ## License
 
