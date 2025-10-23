@@ -5,12 +5,12 @@ import {definePlugin} from 'sanity'
 import {UmamiToolConfig} from './types'
 
 export const umamiTool = definePlugin<UmamiToolConfig | void>((options) => {
-  const {title, url} = options || {}
+  const {title, url, name} = options || {}
   return {
     name: 'umamiTool',
     tools: [
       {
-        name: 'umami',
+        name: name || 'umami',
         title: title || 'Umami',
         url: url,
         icon: BarChartIcon,
